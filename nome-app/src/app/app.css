@@ -1,0 +1,16 @@
+:root {
+	--app-font: Arial, Helvetica, sans-serif;
+}
+
+/* Stili globali per App */
+main {
+	padding: 1rem;
+	font-family: var(--app-font);
+}
+
+main.container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	/* Il grosso del layout e degli spazi è gestito da Bootstrap, qui solo piccole regolazioni */
+}
